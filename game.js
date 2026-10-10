@@ -28,7 +28,7 @@ const themes = {
   neon: loadTheme("neon"),
 };
 
-let theme = "normal";
+let theme = "neon";
 let images = themes[theme];
 
 const music = {
@@ -182,7 +182,7 @@ function getThemeHint() {
   if (theme === "normal") {
     return "Press T to switch to the neon theme";
   }
-  return "Press T to switch to the normal theme";
+  return "Press T to switch to the day theme";
 }
 
 function getMousePosition(event) {
