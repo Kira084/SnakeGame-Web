@@ -180,9 +180,9 @@ function toggleTheme() {
 
 function getThemeHint() {
   if (theme === "normal") {
-    return "Press T to switch to the neon theme";
+    return "Press T to switch to neon mode";
   }
-  return "Press T to switch to the day theme";
+  return "Press T to switch to day mode";
 }
 
 function getMousePosition(event) {
