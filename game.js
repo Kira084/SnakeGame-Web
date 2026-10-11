@@ -507,7 +507,7 @@ function draw() {
 }
 
 function getSpeed() {
-  return Math.min(10 + Math.floor(score / 3), 20);
+  return Math.min(7 + Math.floor(score / 4), 14);
 }
 
 function gameLoop() {
